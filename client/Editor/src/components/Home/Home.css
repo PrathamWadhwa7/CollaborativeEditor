@@ -1,0 +1,22 @@
+.home-container {
+    background-image: url('https://4.bp.blogspot.com/-zzKOq8YpAVQ/WQbkCGRVRzI/AAAAAAAAEYE/einyJ-T8y3cTGy_bb-U2OQVY_6hud5AOgCLcB/w1200-h630-p-k-no-nu/hexmojo-zeus-m710-review-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  

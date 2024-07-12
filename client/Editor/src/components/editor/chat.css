@@ -1,0 +1,74 @@
+/* Chat.css */
+body {
+    background-image: url('https://4.bp.blogspot.com/-zzKOq8YpAVQ/WQbkCGRVRzI/AAAAAAAAEYE/einyJ-T8y3cTGy_bb-U2OQVY_6hud5AOgCLcB/w1200-h630-p-k-no-nu/hexmojo-zeus-m710-review-1.jpg');
+    background-size: cover; /* Ensure the background covers the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat:repeat; /* Prevent repeating of the image */
+  }
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+  }
+  
+   .chat-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  .chat-box {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+      background-color:black;
+      border-bottom: 1px solid #ddd;
+      }
+      
+.message {
+          padding: 8px 12px;
+          margin-bottom: 10px;
+          border-radius: 12px;
+          background-color: whitesmoke;
+    max-width: 70%;
+    align-self: flex-start;
+    word-break: break-word;
+    color: black;
+    }
+    
+.chat-input {
+        display: flex;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+        background-color:black;
+        }
+        
+.chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 10px;
+            }
+            
+.chat-input button {
+                background-color: #4a90e2;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 4px;
+                cursor: pointer;
+                }
+                
+  
+  .chat-input button:hover {
+    background-color: #357abd;
+  }
+   
